@@ -15,8 +15,7 @@ the work on the following articles regarding [Isaacs problem](), [HJB with mixed
 	
 ## Setup
 Note that since this project relies on FEniCS it can be only run on Ubuntu (this might be circumvented using Anaconda for Linux or Mac
-, see [here](https://fenicsproject.org/download/) for details). To run this project, download it and simply run `setup.sh` script.
-After that all demo files should be executable with python interpreter (tested on versions >=3.6). The results, stored in `out` folder
+, see [here](https://fenicsproject.org/download/) for details). To run this project, download it and simply run `setup.sh` script. More advanced user may want to avoid doing that since it does not create virtual environment. Be warned however that running FEnICs inside vitual environment may be problematic as discussed [here](https://www.mail-archive.com/fenics-support@fenicsproject.org/msg01511.html). After installing dependencies all demo files should be executable with python interpreter (tested on versions >=3.6). The results, stored in `out` folder
 can be then visualised e.g. using [Paraview](https://www.paraview.org).
 
 ## Mesh creation
