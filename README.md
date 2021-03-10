@@ -1,4 +1,4 @@
-# FEISol - Finite Elements Isaacs Solver
+# FEISol - Finite Element Isaacs Solver
 ## A Python library for fully nonlinear PDEs
 
 ## Table of contents
