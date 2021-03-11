@@ -10,8 +10,7 @@
 ## General info
 This project is a demo for a fully nonlinear PDE solver based on the [FEniCS Project](https://fenicsproject.org/). It was designed for solving Isaacs problems
 with general Dirichlet boundary conditions and Hamilton-Jacobi-Bellman problems with general mixed boundary conditions using FEM with P1 elements.
-This solver is suitable for problems in non-divergence form, including those with degenerate diffusion and posed on nonconvex domains. It was created during
-the work on the following articles regarding [Isaacs problem](), [HJB with mixed boundary conditions]() and [Heston model]().
+This solver is suitable for problems in non-divergence form, including those with degenerate diffusion and posed on nonconvex domains.
 	
 ## Setup
 Note that since this project relies on FEniCS it can be only run on Ubuntu (this might be circumvented using Anaconda for Linux or Mac
@@ -37,4 +36,4 @@ The second and final step to solving custom problems is creation of `Parameters`
 The implemenatation may differ based on underlying problem but in general one needs to define coefficients of PDE operators
 (both interior and boundary ones) and mark which of them are time-dependent. In case of mixed boundaries problems one also needs
 to provide information in what kind of regions is the boundary divided. Available types are: Dirichlet, Robin(which includes Neumann)
-and Robin with time derivative. See provided examples of `Parameters` classes for implementation details.
+and Robin with time derivative. See provided examples of `Parameters` classes and [instructions.md](https://github.com/BartoszJaroszkowski/FEISol/blob/main/parameters/instructions.md) for implementation details. Note that the current code only supports 2D meshes.
