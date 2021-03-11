@@ -5,6 +5,7 @@ import numpy as np
 
 class Parameters(ParametersBase):
     domains = ['lconcave']
+    # available meshes: ['01', '00025', 'custom']
     meshes = ['01']
 
     def set_coefficients(self):

@@ -7,6 +7,8 @@ from PDE_Solver.tools import ParametersBase
 
 class Parameters(ParametersBase):
     domains = ['donut']
+    # available meshes: ['1', '05', '025', '0125', '00625' '003125', '0015625' ,
+    # 0007825']
     meshes = ['1']
 
     def set_coefficients(self):
